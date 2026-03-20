@@ -2,7 +2,7 @@
 
 A premium, dark-themed personal portfolio website designed to showcase graphic design work, branding projects, and professional experience. Built with a focus on visual impact, smooth animations, and responsiveness.
 
-**[🔗 View Live Demo](https://muhammedgalib.github.io/portfolio/)** *(Note: Ensure GitHub Pages is enabled in your Settings to see the live site)*
+**[🔗 View Live Demo]([https://muhammedgalib.github.io/portfolio/](https://muhammedgalib.github.io/portfolionew/))** *(Note: Ensure GitHub Pages is enabled in your Settings to see the live site)*
 
 ---
 
