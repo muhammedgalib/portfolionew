@@ -3,224 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammed Galib - Design Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <title>Muhammed Galib | Graphic Design Portfolio</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="#" class="logo">Muhammed Galib</a>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#services">Services</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
-            </nav>
+
+    <nav class="glassmorphism">
+        <div class="logo">MG.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#works">Recent Works</a></li>
+            <li><a href="#experience">Experience</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Hi, I'm <span class="highlight">Muhammed Galib</span></h1>
+            <p>Graphic Designer | Branding Expert | Visual Artist</p>
+            <a href="#works" class="btn">View My Work</a>
         </div>
     </header>
 
-    <main>
-        <section id="hero" class="container">
-            <div class="profile-wrapper" data-aos="zoom-in" data-aos-duration="1000">
-                <img src="images/profile.jpg" alt="Muhammed Galib" class="profile-img">
+    <section id="services" class="section">
+        <h2 class="section-title" data-aos="fade-right">My Services</h2>
+        <div class="services-grid">
+            <div class="service-card glassmorphism" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Print Design</h3>
+                <p>High-quality print materials that leave a lasting impression.</p>
             </div>
-            
-            <h1 data-aos="fade-up" data-aos-delay="200">Muhammed Galib</h1>
-            <p class="subtitle" data-aos="fade-up" data-aos-delay="400">Poster Designer & Visual Artist</p>
-            
-            <div class="hero-socials" data-aos="fade-up" data-aos-delay="600">
-                <a href="https://instagram.com/muhammedgalib_" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="https://www.behance.net/muhammedgalib_" target="_blank"><i class='bx bxl-behance'></i></a>
-                <a href="https://pinterest.com/muhammedgalib_" target="_blank"><i class='bx bxl-pinterest'></i></a>
+            <div class="service-card glassmorphism" data-aos="zoom-in" data-aos-delay="200">
+                <h3>Branding</h3>
+                <p>Building strong, memorable brand identities from the ground up.</p>
             </div>
-        </section>
-
-        <section id="about" class="container" data-aos="fade-up">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <p>Hello! I'm <strong>Muhammed Galib</strong>, a graphic designer specializing in poster design. I thrive on bringing ideas to life through strong typography, bold color palettes, and impactful imagery. With a background in design, I approach every project with a blend of creative passion and strategic thinking.</p>
-                <p>When I'm not designing, I'm exploring new trends or refining my craft. Let's create something memorable together.</p>
+            <div class="service-card glassmorphism" data-aos="zoom-in" data-aos-delay="300">
+                <h3>Packaging</h3>
+                <p>Creative and functional packaging designs that stand out.</p>
             </div>
-        </section>
-
-        <section id="experience" class="container">
-            <h2 data-aos="fade-down">My Experience</h2>
-            
-            <div class="timeline">
-                
-                <div class="timeline-item" data-aos="fade-left" data-aos-delay="0">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2025</div>
-                    <div class="timeline-content">
-                        <h3>SIBĀQ 2025</h3>
-                        <p class="role">Graphic Designer</p>
-                        <p class="description">
-                            <strong>Darul Huda National Arts Fest.</strong><br>
-                            Leading visual design projects and creating engaging media content for the event.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2023 - 2025</div>
-                    <div class="timeline-content">
-                        <h3>Annahda Arabic Magazine</h3>
-                        <p class="role">Graphic Designer</p>
-                        <p class="description">Designed layouts, typography, and visual assets for print and digital magazine publications.</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2020 - 2023</div>
-                    <div class="timeline-content">
-                        <h3>AHSAn</h3>
-                        <p class="role">Graphic Designer</p>
-                        <p class="description">Developed creative poster designs and branding materials for various campaigns.</p>
-                    </div>
-                </div>
-
+            <div class="service-card glassmorphism" data-aos="zoom-in" data-aos-delay="400">
+                <h3>Photography</h3>
+                <p>Professional photography to elevate your visual content.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="services">
-            <div class="container">
-                <h2 data-aos="fade-down">My Services</h2>
-                <div class="services-grid">
-                    
-                    <div class="service-item" data-aos="fade-up" data-aos-delay="0">
-                        <i class='bx bx-printer'></i>
-                        <h3>Print Design</h3>
-                        <p>High-quality designs for posters, brochures, flyers, and physical marketing materials.</p>
-                    </div>
-
-                    <div class="service-item" data-aos="fade-up" data-aos-delay="100">
-                        <i class='bx bx-fingerprint'></i>
-                        <h3>Logo & Brand Identity</h3>
-                        <p>Crafting unique logos and cohesive visual systems that define your brand's personality.</p>
-                    </div>
-
-                    <div class="service-item" data-aos="fade-up" data-aos-delay="200">
-                        <i class='bx bx-package'></i>
-                        <h3>Packaging Design</h3>
-                        <p>Creative and functional packaging solutions that make your product stand out on the shelf.</p>
-                    </div>
-
-                    <div class="service-item" data-aos="fade-up" data-aos-delay="300">
-                        <i class='bx bx-video'></i>
-                        <h3>Video Editing</h3>
-                        <p>Professional video editing, motion graphics, and post-production for compelling digital content.</p>
-                    </div>
-
-                    <div class="service-item" data-aos="fade-up" data-aos-delay="400">
-                        <i class='bx bx-calendar-event'></i>
-                        <h3>Event Design</h3>
-                        <p>Creating immersive visual identities, stage backdrops, and promotional materials for events.</p>
-                    </div>
-
-                    <div class="service-item" data-aos="fade-up" data-aos-delay="500">
-                        <i class='bx bx-camera'></i>
-                        <h3>Photography</h3>
-                        <p>Professional photography services for events, products, and commercial visual storytelling.</p>
-                    </div>
-
-                </div>
+    <section id="works" class="section">
+        <h2 class="section-title" data-aos="fade-right">Recent Works</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/work1.jpg" alt="Work 1" class="lightbox-trigger" onerror="this.src='https://via.placeholder.com/600x400/111/00d2ff?text=Work+1'">
             </div>
-        </section>
-        
-        <section id="portfolio">
-            <div class="container">
-                <h2 data-aos="fade-down">Recent Work</h2>
-                <div class="portfolio-grid">
-                    
-                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="0">
-                        <img src="images/poster-01-thumb.jpg" alt="Poster 1" data-full-src="images/poster-01-full.jpg">
-                    </div>
-                    
-                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="images/poster-02-thumb.jpg" alt="Poster 2" data-full-src="images/poster-02-full.jpg">
-                    </div>
-                    
-                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="images/poster-03-thumb.jpg" alt="Poster 3" data-full-src="images/poster-03-full.jpg">
-                    </div>
-                    
-                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300">
-                        <img src="images/poster-04-thumb.jpg" alt="Poster 4" data-full-src="images/poster-04-full.jpg">
-                    </div>
-                    
-                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="400">
-                        <img src="images/poster-05-thumb.jpg" alt="Poster 5" data-full-src="images/poster-05-full.jpg">
-                    </div>
-                    
-                    <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="500">
-                        <img src="images/poster-06-thumb.jpg" alt="Poster 6" data-full-src="images/poster-06-full.jpg">
-                    </div>
-                    
-                </div>
-
-                <div class="portfolio-footer" data-aos="fade-up">
-                    <a href="https://bit.ly/MuhammedGalibWorkModel" target="_blank" class="cta-button">
-                        See More Works <i class='bx bx-right-arrow-alt'></i>
-                    </a>
-                </div>
-
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/work2.jpg" alt="Work 2" class="lightbox-trigger" onerror="this.src='https://via.placeholder.com/600x400/111/00d2ff?text=Work+2'">
             </div>
-        </section>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                <img src="images/work3.jpg" alt="Work 3" class="lightbox-trigger" onerror="this.src='https://via.placeholder.com/600x400/111/00d2ff?text=Work+3'">
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                <img src="images/work4.jpg" alt="Work 4" class="lightbox-trigger" onerror="this.src='https://via.placeholder.com/600x400/111/00d2ff?text=Work+4+(New)'">
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="500">
+                <img src="images/work5.jpg" alt="Work 5" class="lightbox-trigger" onerror="this.src='https://via.placeholder.com/600x400/111/00d2ff?text=Work+5+(New)'">
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="600">
+                <img src="images/work6.jpg" alt="Work 6" class="lightbox-trigger" onerror="this.src='https://via.placeholder.com/600x400/111/00d2ff?text=Work+6+(New)'">
+            </div>
+        </div>
+    </section>
 
-        <section id="contact" class="container" data-aos="fade-up">
-            <h2>Let's Collaborate</h2>
-            <p>Have an idea or a project in mind? I'd love to hear from you.</p>
-            
-            <div class="contact-buttons">
-                <a href="https://wa.me/+918089539792" target="_blank" class="cta-button">
-                    <i class='bx bxl-whatsapp'></i> Whatsapp Now
-                </a>
-                
-                <a href="mailto:muhammedgalib792@gmail.com" class="cta-button cta-button-secondary">
-                    <i class='bx bx-envelope'></i> Email Me
-                </a>
+    <section id="experience" class="section">
+        <h2 class="section-title" data-aos="fade-right">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-left">
+                <h3>SIBĀQ 2025</h3>
+                <p>Lead Graphic Designer</p>
             </div>
-            
-            <div class="social-links">
-                <a href="https://instagram.com/muhammedgalib_" target="_blank" aria-label="Instagram">
-                    <i class='bx bxl-instagram-alt'></i>
-                </a>
-                <a href="https://pinterest.com/muhammedgalib_" target="_blank" aria-label="Pinterest">
-                    <i class='bx bxl-pinterest'></i>
-                </a>
-                <a href="https://www.behance.net/muhammedgalib_" target="_blank" aria-label="Behance">
-                    <i class='bx bxl-behance'></i>
-                </a>
+            <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
+                <h3>Annahda</h3>
+                <p>Branding & Visual Design</p>
             </div>
-        </section>
-    </main>
+            <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                <h3>AHSAn</h3>
+                <p>Creative Design & Photography</p>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; <span id="current-year"></span> Muhammed Galib. All Rights Reserved.</p>
-        </div>
+        <p>Email: muhammedgalib792@gmail.com</p>
+        <p>Behance: muhammedgalib_</p>
+        <p>&copy; 2026 Muhammed Galib. All Rights Reserved.</p>
     </footer>
-    
-    <a href="https://wa.me/+918089539792" class="float-whatsapp" target="_blank">
-        <i class='bx bxl-whatsapp'></i>
-    </a>
 
-    <div id="lightbox">
-        <span class="close-btn">&times;</span>
-        <img id="lightbox-img" src="" alt="Full-size poster">
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
     </div>
 
+    <a href="https://wa.me/918089539792" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="white">
+            <path d="M16 2a13 13 0 0 0-11 20l-2 6 6-2a13 13 0 1 0 7-24zm0 2a11 11 0 1 1-6 20l-4 1 1-4a11 11 0 0 1 9-17zm-4 6c-.3 0-.7.1-1 .4-.4.3-1.1 1-1.1 2.5s1.2 3 1.3 3.2c.2.2 2.2 3.4 5.3 4.7 2 .8 2.8.9 3.8.8.8-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.4-.3-.8-.5s-2.3-1.1-2.7-1.3c-.3-.1-.6-.2-.8.1-.2.4-1 1.3-1.2 1.5-.2.3-.5.3-.9.1-1.9-.9-3.4-2-4.7-4.4-.2-.3 0-.4.2-.6.1-.2.3-.3.5-.5.2-.2.3-.3.4-.6.1-.2.1-.4 0-.6s-1.1-2.6-1.5-3.6c-.4-1-.7-.8-1-.8h-.6z"/>
+        </svg>
+    </a>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
     <script src="script.js"></script>
 </body>
 </html>
