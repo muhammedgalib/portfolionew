@@ -273,3 +273,42 @@ footer p { margin-bottom: 5px; }
     .hero h1 { font-size: 2.5rem; }
     .section { padding: 60px 5%; }
 }
+/* Gallery Mode Controls */
+.lightbox {
+    display: none;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.lightbox-prev, .lightbox-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.3s;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    user-select: none;
+    z-index: 2001;
+    border-radius: 5px;
+}
+
+.lightbox-prev { left: 20px; }
+.lightbox-next { right: 20px; }
+
+.lightbox-prev:hover, .lightbox-next:hover {
+    background-color: var(--accent-color);
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .lightbox-prev, .lightbox-next {
+        font-size: 24px;
+        padding: 10px;
+    }
+    }
